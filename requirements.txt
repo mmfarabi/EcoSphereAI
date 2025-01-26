@@ -13,3 +13,4 @@ streamlit-folium
 Pillow
 numpy
 ray[tune]
+fsspec
