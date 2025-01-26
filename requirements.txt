@@ -1,6 +1,7 @@
 streamlit
 flaml
 scikit-learn
+xgboost
 pandas
 joblib
 openai
