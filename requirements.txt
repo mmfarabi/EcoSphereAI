@@ -1,4 +1,5 @@
 streamlit
+flaml
 pandas
 joblib
 openai
