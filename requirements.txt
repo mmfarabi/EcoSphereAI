@@ -1,11 +1,9 @@
 streamlit
 pandas
 joblib
-sqlite3
 openai
 plotly
 folium
 streamlit-folium
 Pillow
-scikit-learn
 numpy
