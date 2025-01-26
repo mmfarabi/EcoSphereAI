@@ -12,4 +12,4 @@ folium
 streamlit-folium
 Pillow
 numpy
-ray
+ray[tune]
