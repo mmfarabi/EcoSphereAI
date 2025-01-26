@@ -1,0 +1,2 @@
+# EcoSphereAI
+Smart Planning Assistant
