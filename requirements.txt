@@ -12,3 +12,4 @@ folium
 streamlit-folium
 Pillow
 numpy
+ray
