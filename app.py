@@ -41,7 +41,7 @@ def init_db():
                  (id INTEGER PRIMARY KEY AUTOINCREMENT, 
                   user_id INTEGER, 
                   input_data TEXT, 
-                  predictions TEXT, 
+                  prediction TEXT, 
                   insights TEXT, 
                   timestamp DATETIME)''')
 
@@ -59,7 +59,7 @@ def init_db():
                  (id INTEGER PRIMARY KEY AUTOINCREMENT, 
                   user_id INTEGER, 
                   input_data TEXT, 
-                  predictions TEXT, 
+                  prediction TEXT, 
                   insights TEXT, 
                   timestamp DATETIME)''')
 
@@ -68,7 +68,9 @@ def init_db():
                  (id INTEGER PRIMARY KEY AUTOINCREMENT, 
                   user_id INTEGER, 
                   input_data TEXT, 
-                  predictions TEXT, 
+                  cost_prediction REAL, 
+                  time_prediction REAL, 
+                  quantity_prediction INTEGER, 
                   insights TEXT, 
                   timestamp DATETIME)''')
 
@@ -77,7 +79,7 @@ def init_db():
                  (id INTEGER PRIMARY KEY AUTOINCREMENT, 
                   user_id INTEGER, 
                   input_data TEXT, 
-                  predictions TEXT, 
+                  prediction TEXT, 
                   insights TEXT, 
                   timestamp DATETIME)''')
 
@@ -86,7 +88,8 @@ def init_db():
                  (id INTEGER PRIMARY KEY AUTOINCREMENT, 
                   user_id INTEGER, 
                   input_data TEXT, 
-                  predictions TEXT, 
+                  cost_prediction REAL, 
+                  time_prediction REAL, 
                   insights TEXT, 
                   timestamp DATETIME)''')
 
@@ -198,7 +201,7 @@ init_db()
 
 # Initialize Gemini AI client
 client = OpenAI(
-    api_key="AIzaSyB9nIGLfLqAqkCvhjSPHudNcnxefFjOHxI",  # Replace with your actual Gemini API key
+    api_key="AIzaSyDyxXSZ1NhUcWTN4I56fjCC74TrbfNjKiU",  # Replace with your actual Gemini API key
     base_url="https://generativelanguage.googleapis.com/v1beta/"
 )
 
