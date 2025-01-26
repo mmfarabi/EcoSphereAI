@@ -201,7 +201,7 @@ init_db()
 
 # Initialize Gemini AI client
 client = OpenAI(
-    api_key="AIzaSyDyxXSZ1NhUcWTN4I56fjCC74TrbfNjKiU",  # Replace with your actual Gemini API key
+    api_key="AIzaSyA6MLJkBbAHaBwjpBEGwwa5kL2WKWRFqRQ",  # Replace with your actual Gemini API key
     base_url="https://generativelanguage.googleapis.com/v1beta/"
 )
 
